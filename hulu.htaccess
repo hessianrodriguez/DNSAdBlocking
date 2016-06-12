@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} \.ts$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ fakead.ts
+
+
+#RewriteCond %{REQUEST_URI} 
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ fakead.mp4
+

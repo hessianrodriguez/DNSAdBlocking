@@ -1,0 +1,14 @@
+$TTL    30
+@       IN      SOA     ns1 root (
+                              1         ; Serial
+                         3600         ; Refresh
+                          300         ; Retry
+                         3600         ; Expire
+                         300 )        ; Negative Cache TTL
+
+
+        IN      NS      ns1
+        IN      NS      ns2
+        IN      A       10.0.0.4
+*       IN      A       10.0.0.4
+
